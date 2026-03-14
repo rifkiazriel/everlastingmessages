@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>See you in the Aisle</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital@0;1&display=swap');
+        /* Mengambil font bergaya Gothic/Tattoo dari Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Playfair+Display:ital@0;1&display=swap');
 
         body {
             background-color: #0f0f0f;
@@ -17,7 +18,7 @@
             align-items: flex-start; 
             min-height: 100vh;
             overflow-y: auto;
-            padding: 60px 0;
+            padding: 80px 0;
         }
 
         #entrance {
@@ -33,10 +34,10 @@
         #main-content {
             display: none;
             text-align: left; 
-            max-width: 600px; 
-            width: 85%;
+            max-width: 550px; 
+            width: 80%;
             margin: 0 auto; 
-            line-height: 1.8;
+            line-height: 1.9;
         }
 
         .fade-in {
@@ -48,14 +49,15 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
+        /* Tombol dengan font bergaya Irezumi/Gothic */
         button {
             background: none;
             border: 1px solid #888;
             color: #888;
             padding: 12px 25px;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Pirata One', system-ui; /* Font Irezumi Style */
+            font-size: 1.5rem;
             cursor: pointer;
-            font-style: italic;
             transition: 0.5s;
             border-radius: 2px;
         }
@@ -66,34 +68,41 @@
             letter-spacing: 2px;
         }
 
+        /* Judul dengan font Irezumi Style */
         h1 {
-            font-family: 'Dancing Script', cursive;
-            font-size: 3rem;
-            margin-bottom: 40px;
+            font-family: 'Pirata One', system-ui;
+            font-size: 4rem; 
+            margin-bottom: 50px;
             color: #fff;
-            text-align: center; 
+            text-align: center;
+            letter-spacing: 3px;
         }
 
         p {
-            font-size: 1.05rem;
+            font-size: 1.15rem;
             color: #b0b0b0;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             word-wrap: break-word;
             white-space: pre-line; 
         }
 
         .signature {
-            margin-top: 80px;
-            margin-bottom: 40px;
-            font-size: 0.8rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #666;
+            margin-top: 100px;
+            margin-bottom: 60px;
+            font-size: 1rem;
+            font-family: 'Pirata One', cursive; /* Nama Rifki pakai font Irezumi Style */
+            letter-spacing: 2px;
+            color: #888;
             text-align: center; 
         }
 
+        /* Membuat teks bold italic menonjol */
         strong em, em strong {
             color: #fff;
+            font-family: 'Pirata One', serif; /* Bagian See you in the aisle pakai font Irezumi Style */
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            font-style: normal; /* Font Pirata One sudah cukup artistik tanpa miring */
         }
     </style>
 </head>
@@ -247,14 +256,16 @@
             and from the deepest of my heart i'm trully sorry that you had to meet this version of me.</p>
 
             <p>and a lot of thanks i would say to you,
-            bcs you had a great positive impact for me and my family.</p>
+            bcs you had a great positive impact for me and my family.
+            </p>
 
             <p>i hope your ramadhan is going well and better since last years.
             my ramadhan here i think is the best ramadhan i ever had,
             i prays a lot, i recite qur'an a lot.
             in other ways, it was the worst for my mental,
             i cried a lot also wkwk,
-            but i think that the way Allah choose to get me prays more often.</p>
+            but i think that the way Allah choose to get me prays more often.
+            </p>
 
             <p><strong><em>i left the light on,</em></strong>
             and wish you a bunch of happiness ever after.</p>
@@ -266,19 +277,19 @@
             but just dont care about it,
             i know everythings went better on your life since you no longer with me☺️</p>
 
-            <p style="margin-top: 50px;">
+            <div class="signature">
                 <em>Sincerely,</em><br>
-                <em>Rifki Azriel Fahrezi</em><br>
+                <span style="font-size: 1.8rem; color: #fff;">Rifki Azriel Fahrezi</span><br>
                 <em>Your Worst Decision</em><br>
-                <em>See you in the aisle</em>
-            </p>
+                <strong><em>See you in the aisle</em></strong>
+            </div>
 
-            <p>
+            <p style="text-align: center;">
                 <strong><em>If destiny has its own way, I don't mind waiting. </em></strong><br>
                 <strong><em>As long as the next come is the right one, and honestly, I wish it was you.</strong></em>
             </p>
             
-            <div class="signature">— Until we meet again —</div>
+            <div style="text-align: center; color: #444; margin-top: 50px; font-size: 0.8rem;">— End of Message —</div>
         </div>
     </div>
 
@@ -296,7 +307,7 @@
                 content.style.display = 'block';
                 
                 const audio = document.getElementById('bgMusic');
-                audio.volume = 0.6; // Pengaturan volume 60%
+                audio.volume = 0.4; 
                 audio.play().catch(e => console.log("Music blocked"));
             }, 1000);
         }

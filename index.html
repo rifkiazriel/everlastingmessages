@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>See you in the Aisle</title>
     <style>
-        /* Mengambil font bergaya Gothic/Tattoo dari Google Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Playfair+Display:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital@0;1&display=swap');
 
         body {
             background-color: #0f0f0f;
@@ -34,7 +33,7 @@
         #main-content {
             display: none;
             text-align: left; 
-            max-width: 550px; 
+            max-width: 700px; 
             width: 80%;
             margin: 0 auto; 
             line-height: 1.9;
@@ -49,15 +48,14 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Tombol dengan font bergaya Irezumi/Gothic */
         button {
             background: none;
             border: 1px solid #888;
             color: #888;
             padding: 12px 25px;
-            font-family: 'Pirata One', system-ui; /* Font Irezumi Style */
-            font-size: 1.5rem;
+            font-family: 'Playfair Display', serif;
             cursor: pointer;
+            font-style: italic;
             transition: 0.5s;
             border-radius: 2px;
         }
@@ -68,18 +66,16 @@
             letter-spacing: 2px;
         }
 
-        /* Judul dengan font Irezumi Style */
         h1 {
-            font-family: 'Pirata One', system-ui;
-            font-size: 4rem; 
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem; 
             margin-bottom: 50px;
             color: #fff;
-            text-align: center;
-            letter-spacing: 3px;
+            text-align: center; 
         }
 
         p {
-            font-size: 1.15rem;
+            font-size: 1.15rem; /* Ukuran font tetap besar sesuai permintaan sebelumnya */
             color: #b0b0b0;
             margin-bottom: 30px;
             word-wrap: break-word;
@@ -89,20 +85,15 @@
         .signature {
             margin-top: 100px;
             margin-bottom: 60px;
-            font-size: 1rem;
-            font-family: 'Pirata One', cursive; /* Nama Rifki pakai font Irezumi Style */
-            letter-spacing: 2px;
-            color: #888;
+            font-size: 0.85rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #666;
             text-align: center; 
         }
 
-        /* Membuat teks bold italic menonjol */
         strong em, em strong {
             color: #fff;
-            font-family: 'Pirata One', serif; /* Bagian See you in the aisle pakai font Irezumi Style */
-            font-size: 1.4rem;
-            letter-spacing: 1px;
-            font-style: normal; /* Font Pirata One sudah cukup artistik tanpa miring */
         }
     </style>
 </head>
@@ -243,7 +234,8 @@
             <em>even i'm the last option you have in your entire life,</em>
             i would be there and gladly accept the second chance you give.
             but i think it nearly impossible to happen,
-            because you have the best father, great brother and sister, and bunch of good friends around you.</p>
+            because you have the best father, great brother and sister, and bunch of good friends around you.
+            </p>
 
             <p>ohh yaa, say my greetings to mas farrel and mba indah.
             and congratulations, it seems like they're getting married,
@@ -253,7 +245,8 @@
             <p>lastly, i deeply apologize for all the pains and suffers i've caused.
             i'm sorry i made you cry and hurt you.
             i'm sorry if you ended up hating me,
-            and from the deepest of my heart i'm trully sorry that you had to meet this version of me.</p>
+            and from the deepest of my heart i'm trully sorry that you had to meet this version of me.
+            </p>
 
             <p>and a lot of thanks i would say to you,
             bcs you had a great positive impact for me and my family.
@@ -268,28 +261,30 @@
             </p>
 
             <p><strong><em>i left the light on,</em></strong>
-            and wish you a bunch of happiness ever after.</p>
+            and wish you a bunch of happiness ever after.
+            </p>
 
             <p>oke then, bye-bye my beloved person,
             my unrealizable idealism that would be one person in my life.
             i've been compiling all these sentences for about a month,
             of course i cried a lot writing this messages,
             but just dont care about it,
-            i know everythings went better on your life since you no longer with me☺️</p>
+            i know everythings went better on your life since you no longer with me☺️
+            </p>
 
-            <div class="signature">
+            <p style="margin-top: 60px;">
                 <em>Sincerely,</em><br>
-                <span style="font-size: 1.8rem; color: #fff;">Rifki Azriel Fahrezi</span><br>
+                <em>Rifki Azriel Fahrezi</em><br>
                 <em>Your Worst Decision</em><br>
                 <strong><em>See you in the aisle</em></strong>
-            </div>
+            </p>
 
-            <p style="text-align: center;">
+            <p>
                 <strong><em>If destiny has its own way, I don't mind waiting. </em></strong><br>
                 <strong><em>As long as the next come is the right one, and honestly, I wish it was you.</strong></em>
             </p>
             
-            <div style="text-align: center; color: #444; margin-top: 50px; font-size: 0.8rem;">— End of Message —</div>
+            <div class="signature">— Until we meet again —</div>
         </div>
     </div>
 
@@ -307,7 +302,7 @@
                 content.style.display = 'block';
                 
                 const audio = document.getElementById('bgMusic');
-                audio.volume = 0.4; 
+                audio.volume = 0.3; 
                 audio.play().catch(e => console.log("Music blocked"));
             }, 1000);
         }

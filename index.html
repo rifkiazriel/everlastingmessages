@@ -13,27 +13,30 @@
             font-family: 'Playfair Display', serif;
             margin: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* Menggunakan min-height agar bisa memanjang ke bawah */
-            overflow-y: auto; /* Mengaktifkan scroll vertikal */
-            padding: 40px 0; /* Memberi ruang di atas dan bawah saat di-scroll */
+            justify-content: center; 
+            align-items: flex-start; 
+            min-height: 100vh;
+            overflow-y: auto;
+            padding: 60px 0;
         }
 
         #entrance {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
             transition: opacity 1.5s ease;
-            position: fixed; /* Menjaga tombol tetap di tengah sebelum dibuka */
+            z-index: 10;
         }
 
         #main-content {
             display: none;
-            text-align: center;
-            max-width: 600px;
-            width: 90%; /* Agar tidak mepet di layar HP */
-            padding: 20px;
+            text-align: left; 
+            max-width: 600px; 
+            width: 85%;
+            margin: 0 auto; 
             line-height: 1.8;
-            margin: auto;
         }
 
         .fade-in {
@@ -41,7 +44,7 @@
         }
 
         @keyframes fadeInTransition {
-            from { opacity: 0; transform: translateY(20px); }
+            from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
@@ -66,31 +69,31 @@
         h1 {
             font-family: 'Dancing Script', cursive;
             font-size: 3rem;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             color: #fff;
+            text-align: center; 
         }
 
         p {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             color: #b0b0b0;
-            margin-bottom: 25px; /* Memberi jarak antar paragraf */
-            word-wrap: break-word; /* Mencegah teks panjang berantakan */
+            margin-bottom: 25px;
+            word-wrap: break-word;
+            white-space: pre-line; 
         }
 
         .signature {
-            margin-top: 60px;
+            margin-top: 80px;
             margin-bottom: 40px;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             letter-spacing: 3px;
             text-transform: uppercase;
             color: #666;
+            text-align: center; 
         }
 
-        /* Perbaikan untuk tampilan tebal miring yang kamu mau */
         strong em, em strong {
             color: #fff;
-            font-style: italic;
-            font-weight: bold;
         }
     </style>
 </head>
@@ -104,244 +107,197 @@
         <div class="fade-in">
             <h1>To Dinda,</h1>
             
-            <p>
-                hopes everything going well. <br>
-                but, i think you don't needed my hope since everything already went so well on yours.
+            <p>hopes everything going well.
+            but, i think you don't needed my hope since everything already went so well on yours.</p>
+
+            <p>i dont know what's made you changes significantly from someone who really loves me,
+            and hope we are meant to be back then, to someone that really really hates me right now,
+            dont wanna response what i gave, what i text to you.
+            honestly, last gift i sent to you is my way to take your attention again,
+            i showed up my efforts of hand writting letters and some diy,
+            i thought it would be something for you but your response are different.
+            even now you refuses to accept my follow request on your instagram second account.</p>
+
+            <p>i know you are sick of seeing my name pop up one your phone,
+            i know its all my faults, i just wanna make everythings right,
+            i just wanna at least be a friend with you and tried it from 0 again,
+            but your respons is like you want me to go away, and throw me out from you life,
+            so i won't bother your life anymore.</p>
+
+            <p>maybe after you get into the real life stage, you realize that i'm not equal to you,
+            you realize that i will never get to the same level as you.
+            even if the universe give us chance together again,
+            it won't be the same as the last time.
+            you will no longer give a chance to downgrade the lifestyle
+            since you had the high standart right now.
+            but i'm trying so hard to reach the same level as you right now.</p>
+
+            <p>i saw our whatsapp text on april 2025 its still feels right,
+            we still love each other, but next 1 month it turns opposite way,
+            we broke up.
+            i know its all my faults,
+            but at least can you give me hint what is your problem with me
+            that can changes you easily? so i can evaluate my self.
+            you said, the problem is my communication,
+            then i showed to you that i can learn and be as your expected.
+            But, i still find my self wondering, what made you stop loving me?</p>
+
+            <p>i keep reposting sad videos on tiktok is not for seeking your attention,
+            i just have no one to talk to, and probably needed a hug,
+            but i dig that down to the ground and kept everything to my self.
+            till right now, i dont have any close friends
+            that can give me an advice when i tells them our problem,
+            till now i solve it alone, and ya i've tried to solve our problem all alone,
+            and that maybe sometimes its not the best way,
+            so i made some mistake then we get in to a trouble.</p>
+
+            <p>and till now, i just tells our broke up to a few people,
+            mama, mas ihsan synergy k58 (bcs he just married and
+            i think he can share his expirience since i think he was a wise man),
+            dhanar (bcs he faced the same problem as me and we supporting each other to stay strong)
+            and sace (she just notice my post story).
+            i don't really wanna everyone knows about our broke up,
+            i'm just blaming my self sometimes before i sleep and regret all of my fault i did to you.
+            but if someone ask you why, just tell them the truth that i'm the bad guy.</p>
+
+            <p>my first time to get into a relationship with someone is back then in junior high school,
+            i tried to reach her, text her, and tried my best impress her.
+            but it didn't make it,
+            she says that i'm a boring person,
+            so i tried to be fun in my second time.
+            but my second time is still the same, it didnt make it,
+            because my friend is tries to reach this girl also, i dont wanna be a bad friend.
+            So for you, your are the third time in my life to get into a relationship,
+            i've tried to be fun, i've check is there any of my friends tried to be with you or not,
+            but the thing is i'm evaluating all my faults before, and tried to be better.
+            And for some reason maybe i'm lucky to have you back then.</p>
+
+            <p>i found you when i wasn't even searching for relationship.
+            and i lost you when i was loving you the most.
+            when i needed someone to cry on and complain about the world.
+            i felt for you because for the first time in such a long time
+            i felt a pure love like i was home, the way you made me feels wanted,
+            the way you made me realizing what is the purpose of life.
+            i felt the luckiest person in the world sawing your tweet hoping we can get married someday.</p>
+
+            <p>one thing that i never told you, back then i always wondering.
+            is there any person that care about me? is there anyone proud of what I've done?
+            is there anyone seeking me when they not saw me around?
+            and is there anyone feels sad when i die?
+            i never tells you about this bcs it simply just answered by one person,
+            yes its you that can answered all of my fears.
+            finally there is someone who loved and sincerely cried when I left this world.
+            i really miss your way loved me who gives me warmth,
+            your hugs that can always give me peace.
+            because i never feel that comfortable other than being with you,
+            maybe bcs the atmosphere in your family feels very warm,
+            so when i'm with you i feel that warmth as well. and my family is different,
+            not too close and familiar before the presence of you, mba dwi and khaizan.
+            but still it not as warm as yours.
+            as simple as when i want to go to BSD,
+            I hope papa, mama, mas rere, mba dwi will take me to the station and say goodbye.
+            the fact is just papa and mama that take me to the station
+            and we only say goodbye in the car, there is no cry, there is no hug,
+            thats not as warm as i expected.
+            and again when i'm back to surabaya for the first time,
+            i hope my family just pick me up at the station,
+            but it turns out,
+            they told me to go home with grab/gojek.
+            it might me just because i'm a man that should be independent,
+            but there is nothing wrong with hoping for warmth in the family, isn't it?</p>
+
+            <p>my intentions were always pure.
+            at this point, i'm still here, still love you,
+            not because i don't know how to leave,
+            but because a part of my heart that i found in you never really want to left you.
+            i always kept your name in my prayers and hope Allah gift us the best destiny,
+            if we're not destined to be together,
+            let Allah answer my prayers and tells me.</p>
+
+            <p>but this time your happiness is the most important thing to me.
+            i'm happy to have you back then,
+            but now you don't even want to look back at me,
+            say hi, or just a chitchat.
+            its look like i'm no longer able to contribute to your happiness,
+            <em>so this will be my last messages</em>, 
+            i'm still here with the same feelings,
+            but i will no longer bother you,
+            i'll just take one step back, see you from far away.</p>
+
+            <p>i'll always in the same place, same contact and same feelings.
+            I probably wouldn't dare to delete or block your contacts or social media.
+            i'm scared if someday you need something or help from me, just reach me and i'll be there ASAP.</p>
+
+            <p>and maybe in the future life goes hard on you,
+            if there is noone besides you,
+            you can always find me on your side.
+            <em>even i'm the last option you have in your entire life,</em>
+            i would be there and gladly accept the second chance you give.
+            but i think it nearly impossible to happen,
+            because you have the best father, great brother and sister, and bunch of good friends around you.</p>
+
+            <p>ohh yaa, say my greetings to mas farrel and mba indah.
+            and congratulations, it seems like they're getting married,
+            the video shoot at the banyuwangi is great.
             </p>
 
-            <p>
-                i dont know what's made you changes significantly from someone who really loves me, <br>
-                and hope we are meant to be back then, to someone that really really hates me right now, <br>
-                dont wanna response what i gave, what i text to you. <br>
-                honestly, last gift i sent to you is my way to take your attention again, <br>
-                i showed up my efforts of hand writting letters and some diy, <br>
-                i thought it would be something for you but your response are different. <br>
-                even now you refuses to accept my follow request on your instagram second account. 
-            </p>
+            <p>lastly, i deeply apologize for all the pains and suffers i've caused.
+            i'm sorry i made you cry and hurt you.
+            i'm sorry if you ended up hating me,
+            and from the deepest of my heart i'm trully sorry that you had to meet this version of me.</p>
 
-            <p>
-                i know you are sick of seeing my name pop up one your phone,<br>
-                i know its all my faults, i just wanna make everythings right, <br>
-                i just wanna at least be a friend with you and tried it from 0 again, <br>
-                but your respons is like you want me to go away, and throw me out from you life, <br>
-                so i won't bother your life anymore.
-            </p>
+            <p>and a lot of thanks i would say to you,
+            bcs you had a great positive impact for me and my family.</p>
 
-            <p>
-                maybe after you get into the real life stage, you realize that i'm not equal to you,<br>
-                you realize that i will never get to the same level as you. <br>
-                even if the universe give us chance together again, <br>
-                it won't be the same as the last time. <br>
-                you will no longer give a chance to downgrade the lifestyle <br>
-                since you had the high standart right now. <br>
-                but i'm trying so hard to reach the same level as you right now.
-            </p>
+            <p>i hope your ramadhan is going well and better since last years.
+            my ramadhan here i think is the best ramadhan i ever had,
+            i prays a lot, i recite qur'an a lot.
+            in other ways, it was the worst for my mental,
+            i cried a lot also wkwk,
+            but i think that the way Allah choose to get me prays more often.</p>
 
-            <p>
-                i saw our whatsapp text on april 2025 its still feels right, <br>
-                we still love each other, but next 1 month it turns opposite way, <br>
-                we broke up. <br>
-                i know its all my faults, <br>
-                but at least can you give me hint what is your problem with me <br>
-                that can changes you easily? so i can evaluate my self. <br>
-                you said, the problem is my communication, <br>
-                then i showed to you that i can learn and be as your expected. <br>
-                But, i still find my self wondering, what made you stop loving me?
-            </p>
+            <p><strong><em>i left the light on,</em></strong>
+            and wish you a bunch of happiness ever after.</p>
 
-            <p>
-                i keep reposting sad videos on tiktok is not for seeking your attention, <br>
-                i just have no one to talk to, and probably needed a hug, <br>
-                but i dig that down to the ground and kept everything to my self. <br>
-                till right now, i dont have any close friends <br>
-                that can give me an advice when i tells them our problem, <br>
-                till now i solve it alone, and ya i've tried to solve our problem all alone, <br>
-                and that maybe sometimes its not the best way, <br>
-                so i made some mistake then we get in to a trouble.
-            </p>
+            <p>oke then, bye-bye my beloved person,
+            my unrealizable idealism that would be one person in my life.
+            i've been compiling all these sentences for about a month,
+            of course i cried a lot writing this messages,
+            but just dont care about it,
+            i know everythings went better on your life since you no longer with me☺️</p>
 
-            <p>
-                and till now, i just tells our broke up to a few people, <br>
-                mama, mas ihsan synergy k58 (bcs he just married and <br>
-                i think he can share his expirience since i think he was a wise man), <br>
-                dhanar (bcs he faced the same problem as me and we supporting each other to stay strong) <br>
-                and sace (she just notice my post story). <br>
-                i don't really wanna everyone knows about our broke up, <br>
-                i'm just blaming my self sometimes before i sleep and regret all of my fault i did to you. <br>
-                but if someone ask you why, just tell them the truth that i'm the bad guy.
-            </p>
-
-            <p>
-                my first time to get into a relationship with someone is back then in junior high school, <br>
-                i tried to reach her, text her, and tried my best impress her. <br>
-                but it didn't make it, <br>
-                she says that i'm a boring person, <br>
-                so i tried to be fun in my second time. <br>
-                but my second time is still the same, it didnt make it, <br>
-                because my friend is tries to reach this girl also, i dont wanna be a bad friend. <br>
-                So for you, your are the third time in my life to get into a relationship, <br>
-                i've tried to be fun, i've check is there any of my friends tried to be with you or not, <br>
-                but the thing is i'm evaluating all my faults before, and tried to be better. <br>
-                And for some reason maybe i'm lucky to have you back then.
-            </p>
-
-            <p>
-                i found you when i wasn't even searching for relationship. <br>
-                and i lost you when i was loving you the most. <br>
-                when i needed someone to cry on and complain about the world. <br>
-                i felt for you because for the first time in such a long time <br>
-                i felt a pure love like i was home, the way you made me feels wanted, <br>
-                the way you made me realizing what is the purpose of life. <br>
-                i felt the luckiest person in the world sawing your tweet hoping we can get married someday.
-            </p>
-
-            <p>
-                one thing that i never told you, back then i always wondering. <br>
-                is there any person that care about me? is there anyone proud of what I've done? <br>
-                is there anyone seeking me when they not saw me around? <br>
-                and is there anyone feels sad when i die? <br>
-                i never tells you about this bcs it simply just answered by one person, <br>
-                yes its you that can answered all of my fears. <br>
-                finally there is someone who loved and sincerely cried when I left this world. <br>
-                i really miss your way loved me who gives me warmth, <br>
-                your hugs that can always give me peace. <br>
-                because i never feel that comfortable other than being with you, <br>
-                maybe bcs the atmosphere in your family feels very warm, <br>
-                so when i'm with you i feel that warmth as well. and my family is different, <br>
-                not too close and familiar before the presence of you, mba dwi and khaizan. <br>
-                but still it not as warm as yours. <br>
-                as simple as when i want to go to BSD, <br>
-                I hope papa, mama, mas rere, mba dwi will take me to the station and say goodbye. <br>
-                the fact is just papa and mama that take me to the station <br>
-                and we only say goodbye in the car, there is no cry, there is no hug, <br>
-                thats not as warm as i expected. <br>
-                and again when i'm back to surabaya for the first time, <br>
-                i hope my family just pick me up at the station, <br>
-                but it turns out, <br>
-                they told me to go home with grab/gojek. <br>
-                it might me just because i'm a man that should be independent, <br>
-                but there is nothing wrong with hoping for warmth in the family, isn't it?
-            </p>
-
-            <p>
-                my intentions were always pure. <br>
-                at this point, i'm still here, still love you, <br>
-                not because i don't know how to leave, <br>
-                but because a part of my heart that i found in you never really want to left you. <br>
-                i always kept your name in my prayers and hope Allah gift us the best destiny, <br>
-                if we're not destined to be together, <br>
-                let Allah answer my prayers and tells me.
-            </p>
-
-            <p>
-                but this time your happiness is the most important thing to me. <br>
-                i'm happy to have you back then, <br>
-                but now you don't even want to look back at me, <br>
-                say hi, or just a chitchat. <br>
-                its look like i'm no longer able to contribute to your happiness, <br>
-                <em>so this will be my last messages</em>, 
-                i'm still here with the same feelings, <br>
-                but i will no longer bother you, <br>
-                i'll just take one step back, see you from far away.
-            </p>
-
-            <p>
-                i'll always in the same place, same contact and same feelings. <br>
-                I probably wouldn't dare to delete or block your contacts or social media. <br>
-                i'm scared if someday you need something or help from me, just reach me and i'll be there ASAP. 
-            </p>
-
-            <p>
-                and maybe in the future life goes hard on you, <br>
-                if there is noone besides you, <br>
-                you can always find me on your side. <br>
-                <em>even i'm the last option you have in your entire life,</em> <br>
-                i would be there and gladly accept the second chance you give. <br>
-                but i think it nearly impossible to happen, <br>
-                because you have the best father, great brother and sister, and bunch of good friends around you.
-            </p>
-
-            <p>
-                ohh yaa, say my greetings to mas farrel and mba indah. <br>
-                and congratulations, it seems like they're getting married, <br>
-                the video shoot at the banyuwangi is great.
-            </p>
-
-            <p>
-                lastly, i deeply apologize for all the pains and suffers i've caused. <br>
-                i'm sorry i made you cry and hurt you. <br>
-                i'm sorry if you ended up hating me, <br>
-                and from the deepest of my heart i'm trully sorry that you had to meet this version of me.
-            </p>
-
-            <p>
-                and a lot of thanks i would say to you, <br>
-                bcs you had a great positive impact for me and my family.
-            </p>
-
-            <p>
-                i hope your ramadhan is going well and better since last years. <br>
-                my ramadhan here i think is the best ramadhan i ever had, <br>
-                i prays a lot, i recite qur'an a lot. <br>
-                in other ways, it was the worst for my mental, <br>
-                i cried a lot also wkwk, <br>
-                but i think that the way Allah choose to get me prays more often.
-            </p>
-
-            <p>
-                <strong><em>i left the light on,</em></strong> <br>
-                and wish you a bunch of happiness ever after.
-            </p>
-
-            <p>
-                oke then, bye-bye my beloved person, <br>
-                my unrealizable idealism that would be one person in my life. <br>
-                i've been compiling all these sentences for about a month, <br>
-                of course i cried a lot writing this messages, <br>
-                but just dont care about it, <br>
-                i know everythings went better on your life since you no longer with me☺️
-            </p>
-
-            <p>
+            <p style="margin-top: 50px;">
                 <em>Sincerely,</em><br>
                 <em>Rifki Azriel Fahrezi</em><br>
                 <em>Your Worst Decision</em><br>
-                <strong><em>See you in the aisle</em></strong>
+                <em>See you in the aisle</em>
             </p>
 
             <p>
                 <strong><em>If destiny has its own way, I don't mind waiting. </em></strong><br>
-                <strong><em>As long as the next come is the right one, and honestly, I wish it was you.</em></strong>
+                <strong><em>As long as the next come is the right one, and honestly, I wish it was you.</strong></em>
             </p>
             
             <div class="signature">— Until we meet again —</div>
         </div>
     </div>
 
-    <audio id="bgMusic" loop preload="auto">
+    <audio id="bgMusic" loop>
         <source src="https://www.dropbox.com/scl/fi/cbdop2np8emhl4uvfjgk2/combined-song.mp3?rlkey=s5ebnyfgge16rx3v7pkr9l3p7&st=rcqggqad&raw=1" type="audio/mpeg">
     </audio>
 
     <script>
         function revealMessage() {
-            // Sembunyikan tombol
             document.getElementById('entrance').style.opacity = '0';
             
             setTimeout(() => {
                 document.getElementById('entrance').style.display = 'none';
-                
-                // Tampilkan konten
                 const content = document.getElementById('main-content');
                 content.style.display = 'block';
                 
-                // Putar Musik
                 const audio = document.getElementById('bgMusic');
-                audio.volume = 0.5;
-                
-                // Menambahkan penanganan error untuk autoplay
-                audio.play().catch(function(error) {
-                    console.log("Autoplay blocked: " + error);
-                });
+                audio.volume = 0.6; // Pengaturan volume 60%
+                audio.play().catch(e => console.log("Music blocked"));
             }, 1000);
         }
     </script>

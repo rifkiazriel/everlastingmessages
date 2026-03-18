@@ -284,12 +284,12 @@
             they told me to go home using grab/gojek.
             it might me just because i'm a man that should be independent,
             but there is nothing wrong with hoping for warmth in the family, isn't it?
-	    and again after i took a driving course, i'm only practicing again when we go to PPS.
-	    but just from nasi padang to the visio house.
-	    my father loves his wealth too much, rather than letting his son drive a car.
-	    in other ways, i'm gratefull with my family
-	    i've learned a lot of things
-	    but, if i become a father in the future, i would prefer to be like your father.</p>
+            dan lagi setelah kursus mengemudi, aku hanya berlatih lagi saat ke PPS.
+            tapi hanya dari nasi padang ke rumah visio.
+            ayahku terlalu mencintai hartanya, daripada membiarkan anaknya menyetir mobil.
+            di sisi lain, aku bersyukur dengan keluargaku
+            aku sudah belajar banyak hal
+            tapi, jika aku menjadi ayah di masa depan, aku lebih memilih menjadi seperti ayahmu.</p>
 
             <p>my intentions were always pure.
             at this point, i'm still here, still love you,
@@ -329,7 +329,7 @@
 
             <p>lastly, i deeply apologize for all the pains and suffers i've caused.
             i'm sorry i made you cry and hurt you.
-            i'm sorry if you ended up hating me,
+            m sorry if you ended up hating me,
             and from the deepest of my heart i'm trully sorry that you had to meet this version of me.
             at this time i don't think any person exist to affraid losing me </p>
 
@@ -341,7 +341,7 @@
             my ramadhan here i think is the best ramadhan i ever had,
             i prays a lot, i recite qur'an a lot.
             in other ways, it was the worst for my mental,
-            i cried a lot also wkwk,
+            i cried a lot juga wkwk,
             but i think that the way Allah choose to get me prays more often.
             </p>
 
@@ -357,11 +357,11 @@
             i know everythings went better on your life since you no longer with me☺️
             </p>
             <p>
-                <em>Sincerely,</em>
-                <em>Rifki Azriel Fahrezi</em>
-                <em>Your Worst Decision</em>
+                <em>Sincerely,</em><br>
+                <em>Rifki Azriel Fahrezi</em><br>
+                <em>Your Worst Decision</em><br>
                 <em>See you in the aisle</em>
-            </p>           
+            </p>            
           <div class="signature"> If destiny has its own way, I don't mind waiting. As long as the next come is the right one, and honestly, I wish it was you. </div>
         </div>
     </div>
@@ -372,17 +372,24 @@
 
     <script>
         function revealMessage() {
+            // Sembunyikan tombol entrance
             document.getElementById('entrance').style.opacity = '0';
             
             setTimeout(() => {
                 document.getElementById('entrance').style.display = 'none';
+                
+                // Tampilkan konten utama
                 const content = document.getElementById('main-content');
                 content.style.display = 'block';
                 
+                // Tambahkan class letter-open ke html agar background muncul
+                document.documentElement.classList.add('letter-open');
+                
+                // Putar musik
                 const audio = document.getElementById('bgMusic');
                 audio.volume = 0.3; 
-                audio.play().catch(e => console.log("Music blocked"));
-            }, 1000);
+                audio.play().catch(e => console.log("Music blocked by browser policy. User must interact first."));
+            }, 1000); // Sinkron dengan transisi CSS (1s)
         }
     </script>
 </body>
